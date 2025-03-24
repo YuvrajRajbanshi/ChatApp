@@ -32,7 +32,7 @@ const ChatUi = () => {
       setInput("");
 
       // Call API
-      const res = await axios.post("http://localhost:5000/generate", {
+      const res = await axios.post("https://vani-mpyk.onrender.com/generate", {
         prompt: input,
       });
 
